@@ -1,0 +1,13 @@
+Payments,1751,0.610742937,,,,,,,
+No payments,1116,0.389257063,,,,,,,
+,2867,,,,,is_payment_received_after,count,mean,sd
+,,,,,,<int>,<int>,<dbl>,<dbl>
+,,,,,1,0,1000,144,134
+ttest,5.15805E-38,,,,2,1,1000,88.9,91.6
+ttest,9.55168E-28,,,,,,,,
+,,,,,,"with(sample_1000, shapiro.test(days_appeal_opened_after_discharge[is_payment_received_after == 0]))",,,
+mean A,144.259,134.8579051,,,,"W = 0.78033, p-value < 2.2e-16",,,
+,87.131,91.54879038,,,,,,,
+,57.128,5.154399635,,,,data:  days_appeal_opened_after_discharge[is_payment_received_after ==     1],,,
+t value,11.08334705,,,,,"W = 0.70321, p-value < 2.2e-16",,,
+two tail ,,,,,,,,,

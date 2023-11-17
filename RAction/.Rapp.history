@@ -1,0 +1,54 @@
+2 +2
+x <- 1:10
+x
+y <- c(1,4,0, -1)
+y
+x + y
+y * 2
+require(devtools)
+require("devtools")
+install.packages('devtools')
+require('devtools')
+install_github('andreacirilloac/updateR')
+library(updateR)
+updateR(admin_password = 'Learn2stat')
+Learn2stat
+install.packages("data.table")
+x = c(1,6,2)
+x
+length(X)
+length(x)
+rm(x)
+ls()
+y
+rm(ls())
+rm(list=ls())
+ls()
+x = matrix(data=c(1,2,3,4), nrows=2, ncols=2)
+x = matrix(data=c(1,2,3,4), nrow=2, ncol=2)
+x
+x = matrix(c(1,2,3,4), 1,1)
+x
+x = matrix(c(1,2,3,4), 1,2)
+x
+x = matrix(c(1,2,3,4), 2,2,byrow=TRUE)
+x
+x = matrix(c(1,2,3,4), 2,2,byrow=FALSE)
+x
+sqrt(x)
+x ^ 2
+x = rnorm(50)
+y = x+rnorm(50, mean=50, sd=0.1)
+cor(x,y)
+set.seed (1303)
+rnorm (50)
+y==rnorm(50)
+y=rnorm(50)
+getwd
+getwd()
+demo(graphics)
+getwd
+getwd()
+setwd("/Users/singhr/testcode/R_Exercise/RAction")
+getwd()
+demo(graphics)
